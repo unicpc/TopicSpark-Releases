@@ -1,54 +1,62 @@
 # TopicSpark Releases
 
-Official public releases of the TopicSpark desktop app for Windows x64. This repository contains release installers and update metadata; the full program description and current download links are maintained on the [TopicSpark website](https://topicspark.online/download.html).
+Официальные публичные выпуски настольной программы TopicSpark для Windows x64. В этом репозитории размещаются установщики и файлы автообновления; исходный код находится в [репозитории разработчиков TopicSpark](https://github.com/unicpc/TopicSpark).
 
-## Русский
+## TopicSpark — профессиональный парсер новостных источников
 
-**TopicSpark** — настольная программа для мониторинга публикаций по выбранным темам и подготовки материалов для дальнейшей работы. Она собирает новости из RSS-лент сайтов и публичных Telegram-каналов, помогает находить важные статьи и превращать их в основу для публикации.
+TopicSpark собирает публикации из RSS-лент, сайтов и открытых Telegram-каналов в тематическую ленту. Вы настраиваете темы и источники, следите за новыми материалами и быстро переходите к первоисточнику.
 
 ### Что умеет программа
 
-- Настраивать темы, источники, фильтры ленты и частоту мониторинга в пределах тарифа.
-- Следить за сайтами через RSS и за публичными Telegram-каналами; связывать источники с темами.
-- Находить новые публикации на компьютере и синхронизировать доступные по тарифу материалы с личным кабинетом.
-- Открывать статью вместе с источником и изображениями. Англоязычная статья сначала переводится, затем локальные AI-модели создают краткое описание и пост на выбранном языке по настройкам генерации.
-- Сохранять прочитанные статьи и результаты генерации между программой и сайтом, добавлять материалы в архив и скачивать ZIP с переводом, кратким описанием, постом и изображениями.
-- Загружать модели и необходимые локальные AI-компоненты в фоне при первом запуске.
+- Добавлять RSS-ленты, сайты и открытые Telegram-каналы, распределять их по темам.
+- Проверять источники по расписанию, пока настольная программа запущена. Частота мониторинга зависит от тарифа и настроек.
+- Собирать новые публикации в одной ленте и находить их по теме или источнику.
+- Показывать извлечённый текст статьи, ссылку на первоисточник и доступные изображения.
+- Формировать краткую выдержку из предложений статьи, задавать её длину и добавлять заголовок или ссылку.
+- Подготавливать посты в выбранном формате и сохранять связь с первоисточником.
+- Отправлять публикации в собственный Telegram-канал через подключённого бота; доступность зависит от тарифа.
+- Синхронизировать настройки и доступные материалы с веб-кабинетом.
 
-Мониторинг и генерация выполняются на компьютере пользователя. Первому запуску нужны интернет и свободное место для AI-компонентов. Доступ к веб-ленте, частота проверок и размер архива зависят от тарифа.
-
-### Требования
+### Системные требования
 
 - Windows 10 или новее, 64-разрядная система.
-- Не менее 4 ГБ оперативной памяти.
-- Дополнительное место на диске для локальных AI-моделей, которые загружаются при первом запуске.
-- Подключение к интернету для загрузки моделей, синхронизации и обновлений.
+- Процессор AMD Ryzen 3 1200 или сопоставимый.
+- Не менее 8 ГБ оперативной памяти.
+- Дискретная видеокарта NVIDIA GeForce GTX 1060 или сопоставимая.
+- Подключение к интернету.
+- Свободное место на диске для программы и кэша публикаций.
 
-Первая публичная версия — **V1 для Windows x64**. Версия для macOS пока находится в разработке. Описание программы, номер текущей версии и ссылки на загрузку находятся на [странице загрузки TopicSpark](https://topicspark.online/download.html).
+Публичный выпуск доступен для Windows x64. Версия для macOS находится в разработке. Актуальную версию и ссылки на загрузку смотрите на [странице TopicSpark](https://topicspark.online/download.html) или в [списке публичных выпусков](https://github.com/unicpc/TopicSpark-Releases/releases).
 
 ## English
 
-**TopicSpark** is a Windows desktop app for monitoring posts around selected topics and preparing material for further work. It collects news from website RSS feeds and public Telegram channels, helps you find relevant articles, and turns them into a starting point for a publication.
+Official public Windows x64 releases of TopicSpark. This repository contains installers and update files; source code is maintained in the [TopicSpark developer repository](https://github.com/unicpc/TopicSpark).
+
+## TopicSpark — a professional parser for news sources
+
+TopicSpark collects posts from RSS feeds, websites, and public Telegram channels in a topic feed. Configure topics and sources, follow new material, and open the original publisher page.
 
 ### What the app does
 
-- Configure topics, sources, feed filters, and monitoring intervals within your subscription plan.
-- Follow websites through RSS and public Telegram channels, and assign topics to each source.
-- Find new posts on your computer and sync plan-eligible material with your account.
-- Open an article with its source and images. English articles are translated first; local AI models then create a concise summary and a post in the selected output language using your generation settings.
-- Sync read status and generated results between the app and website, save material to your archive, and download a ZIP with the translated text, summary, post, and images.
-- Download models and required local AI components in the background on first launch.
+- Add RSS feeds, websites, and public Telegram channels, and organize them by topic.
+- Check sources on a schedule while the desktop app is running. Monitoring frequency depends on the plan and settings.
+- Collect new posts in one feed and find them by topic or source.
+- Display extracted article text, a link to the original source, and available images.
+- Create a short excerpt from article sentences, set its length, and add a headline or source link.
+- Prepare posts in a selected format while keeping the original source attached.
+- Send publications to your own Telegram channel through a connected bot; availability depends on the plan.
+- Sync settings and available items with the web account.
 
-Monitoring and generation run on the user's computer. First launch requires internet access and free disk space for the AI components. Online feed access, monitoring intervals, and archive limits depend on the subscription plan.
-
-### Requirements
+### System requirements
 
 - Windows 10 or later, 64-bit.
-- At least 4 GB of RAM.
-- Additional disk space for local AI models downloaded on first launch.
-- Internet access for model downloads, account sync, and updates.
+- AMD Ryzen 3 1200 processor or equivalent.
+- At least 8 GB of RAM.
+- NVIDIA GeForce GTX 1060 discrete graphics card or equivalent.
+- Internet connection.
+- Free disk space for the app and publication cache.
 
-The first public version is **V1 for Windows x64**. The macOS version is in development. The full program description, current version, and download links are on the [TopicSpark download page](https://topicspark.online/download.html).
+The public release is available for Windows x64. The macOS version is in development. Find the current version and download links on the [TopicSpark website](https://topicspark.online/download.html) or in the [public releases list](https://github.com/unicpc/TopicSpark-Releases/releases).
 
 ## Downloads
 
