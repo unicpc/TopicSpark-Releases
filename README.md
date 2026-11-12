@@ -1,51 +1,51 @@
 # TopicSpark Releases
 
-Официальные публичные выпуски настольной программы TopicSpark для Windows x64. В этом репозитории размещаются установщики и файлы автообновления; исходный код находится в [репозитории разработчиков TopicSpark](https://github.com/unicpc/TopicSpark).
+Официальные публичные выпуски TopicSpark для Windows x64. Здесь размещаются установщик и файлы обновления; исходный код находится в [репозитории разработчиков](https://github.com/unicpc/TopicSpark).
 
-## TopicSpark — профессиональный парсер новостных источников
+## Профессиональный парсер новостных источников
 
-TopicSpark собирает публикации из RSS-лент, сайтов и открытых Telegram-каналов в тематическую ленту. Вы настраиваете темы и источники, следите за новыми материалами и быстро переходите к первоисточнику.
+TopicSpark объединяет публикации из RSS, сайтов и открытых Telegram-каналов в тематическую ленту. Программа извлекает текст статьи, показывает доступные изображения и сохраняет прямой переход к первоисточнику.
 
-### Что умеет программа
+### Возможности
 
-- Добавлять RSS-ленты, сайты и открытые Telegram-каналы, распределять их по темам.
-- Проверять источники по расписанию, пока настольная программа запущена. Частота мониторинга зависит от тарифа и настроек.
-- Собирать новые публикации в одной ленте и находить их по теме или источнику.
-- Показывать извлечённый текст статьи, ссылку на первоисточник и доступные изображения.
-- Формировать краткую выдержку из предложений статьи, задавать её длину и добавлять заголовок или ссылку.
-- Подготавливать посты в выбранном формате и сохранять связь с первоисточником.
-- Отправлять публикации в собственный Telegram-канал через подключённого бота; доступность зависит от тарифа.
-- Синхронизировать настройки и доступные материалы с веб-кабинетом.
+- Настраивать сайты, RSS-ленты, открытые Telegram-каналы и темы мониторинга в пределах тарифа.
+- Получать новые публикации в одной ленте, сортировать их и фильтровать по теме или источнику.
+- Читать извлечённый текст статьи, смотреть изображения и переходить на исходную страницу.
+- Формировать краткую выдержку из статьи и задавать её длину в настройках.
+- Синхронизировать ленту и настройки между настольной программой и веб-кабинетом.
+- Хранить материалы ленты на сайте до 8 дней; в программе выбрать автоочистку через 1, 2, 3, 5 или 7 дней.
+
+Публикация в Telegram проходит закрытое тестирование и пока доступна только администраторам. Для обычных пользователей постинг отключён. Список текущих тарифов и лимитов приведён на [странице тарифов](https://topicspark.online/plans.html).
 
 ### Системные требования
 
 - Windows 10 или новее, 64-разрядная система.
-- Процессор AMD Ryzen 3 1200 или сопоставимый.
+- AMD Ryzen 3 1200 или сопоставимый процессор.
 - Не менее 8 ГБ оперативной памяти.
-- Дискретная видеокарта NVIDIA GeForce GTX 1060 или сопоставимая.
+- Дискретная NVIDIA GeForce GTX 1060 или сопоставимая видеокарта.
 - Подключение к интернету.
-- Свободное место на диске для программы и кэша публикаций.
+- Свободное место на диске для программы и материалов ленты.
 
-Публичный выпуск доступен для Windows x64. Версия для macOS находится в разработке. Актуальную версию и ссылки на загрузку смотрите на [странице TopicSpark](https://topicspark.online/download.html) или в [списке публичных выпусков](https://github.com/unicpc/TopicSpark-Releases/releases).
+Актуальную версию можно скачать на [странице загрузок](https://topicspark.online/download.html) или в [списке публичных выпусков](https://github.com/unicpc/TopicSpark-Releases/releases).
 
 ## English
 
-Official public Windows x64 releases of TopicSpark. This repository contains installers and update files; source code is maintained in the [TopicSpark developer repository](https://github.com/unicpc/TopicSpark).
+Official public TopicSpark releases for Windows x64. This repository contains the installer and update files; source code is maintained in the [developer repository](https://github.com/unicpc/TopicSpark).
 
-## TopicSpark — a professional parser for news sources
+## A professional parser for news sources
 
-TopicSpark collects posts from RSS feeds, websites, and public Telegram channels in a topic feed. Configure topics and sources, follow new material, and open the original publisher page.
+TopicSpark combines posts from RSS feeds, websites, and public Telegram channels in a topic-based feed. It extracts article text, displays available images, and keeps a direct link to the original publisher.
 
-### What the app does
+### Features
 
-- Add RSS feeds, websites, and public Telegram channels, and organize them by topic.
-- Check sources on a schedule while the desktop app is running. Monitoring frequency depends on the plan and settings.
-- Collect new posts in one feed and find them by topic or source.
-- Display extracted article text, a link to the original source, and available images.
-- Create a short excerpt from article sentences, set its length, and add a headline or source link.
-- Prepare posts in a selected format while keeping the original source attached.
-- Send publications to your own Telegram channel through a connected bot; availability depends on the plan.
-- Sync settings and available items with the web account.
+- Configure websites, RSS feeds, public Telegram channels, and monitoring topics within plan limits.
+- Collect new posts in one feed and filter them by topic or source.
+- Read extracted article text, view images, and open the original page.
+- Create a concise excerpt and set its default length in settings.
+- Sync the feed and settings between the desktop app and the web account.
+- Retain website feed materials for up to 8 days; choose desktop cleanup after 1, 2, 3, 5, or 7 days.
+
+Telegram publishing is in closed testing and is available only to administrators. Posting is disabled for regular users. Current plans and quotas are listed on the [plans page](https://topicspark.online/plans.html).
 
 ### System requirements
 
@@ -54,12 +54,6 @@ TopicSpark collects posts from RSS feeds, websites, and public Telegram channels
 - At least 8 GB of RAM.
 - NVIDIA GeForce GTX 1060 discrete graphics card or equivalent.
 - Internet connection.
-- Free disk space for the app and publication cache.
+- Free disk space for the app and feed materials.
 
-The public release is available for Windows x64. The macOS version is in development. Find the current version and download links on the [TopicSpark website](https://topicspark.online/download.html) or in the [public releases list](https://github.com/unicpc/TopicSpark-Releases/releases).
-
-## Downloads
-
-- [Latest public release](https://github.com/unicpc/TopicSpark-Releases/releases/latest)
-- [TopicSpark download page](https://topicspark.online/download.html)
-- [Public release list](https://github.com/unicpc/TopicSpark-Releases/releases)
+Download the current version on the [downloads page](https://topicspark.online/download.html) or from the [public releases list](https://github.com/unicpc/TopicSpark-Releases/releases).
