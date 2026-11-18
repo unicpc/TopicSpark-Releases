@@ -1,59 +1,27 @@
-# TopicSpark Releases
+# TopicSpark
 
-Официальные публичные выпуски TopicSpark для Windows x64. Здесь размещаются установщик и файлы обновления; исходный код находится в [репозитории разработчиков](https://github.com/unicpc/TopicSpark).
+TopicSpark — программа для сбора и разбора публикаций из RSS-лент, сайтов и открытых Telegram-каналов.
 
-## Профессиональный парсер новостных источников
+## Возможности
 
-TopicSpark объединяет публикации из RSS, сайтов и открытых Telegram-каналов в тематическую ленту. Программа извлекает текст статьи, показывает доступные изображения и сохраняет прямой переход к первоисточнику.
+- Собирает публикации из разных источников в тематическую ленту.
+- Извлекает текст статей, показывает доступные изображения и сохраняет ссылку на первоисточник.
+- Позволяет распределять источники по темам и быстро находить нужные материалы.
+- Синхронизирует источники и настройки с веб-кабинетом TopicSpark.
+- Помогает подготовить публикацию и отправить её через подключённые каналы в веб-кабинете.
+- **TopicSpark Lite** работает как облегчённый фоновый парсер: получает настройки с сайта и не показывает ленту.
 
-### Возможности
+## Скачать для Windows x64
 
-- Настраивать сайты, RSS-ленты, открытые Telegram-каналы и темы мониторинга в пределах тарифа.
-- Получать новые публикации в одной ленте, сортировать их и фильтровать по теме или источнику.
-- Читать извлечённый текст статьи, смотреть изображения и переходить на исходную страницу.
-- Формировать краткую выдержку из статьи и задавать её длину в настройках.
-- Синхронизировать ленту и настройки между настольной программой и веб-кабинетом.
-- Хранить материалы ленты на сайте до 8 дней; в программе выбрать автоочистку через 1, 2, 3, 5 или 7 дней.
+- [Стандартная версия TopicSpark](https://github.com/unicpc/TopicSpark-Releases/releases/download/v2.0.22/TopicSpark-Setup-V2.exe)
+- [Облегчённая версия TopicSpark Lite](https://github.com/unicpc/TopicSpark-Releases/releases/download/v2.0.22/TopicSpark-Lite-Setup-V2.exe)
 
-Публикация в Telegram проходит закрытое тестирование и пока доступна только администраторам. Для обычных пользователей постинг отключён. Список текущих тарифов и лимитов приведён на [странице тарифов](https://topicspark.online/plans.html).
-
-### Системные требования
+## Системные требования стандартной версии
 
 - Windows 10 или новее, 64-разрядная система.
 - AMD Ryzen 3 1200 или сопоставимый процессор.
 - Не менее 8 ГБ оперативной памяти.
 - Дискретная NVIDIA GeForce GTX 1060 или сопоставимая видеокарта.
-- Подключение к интернету.
-- Свободное место на диске для программы и материалов ленты.
+- Подключение к интернету и свободное место на диске.
 
-Актуальную версию можно скачать на [странице загрузок](https://topicspark.online/download.html) или в [списке публичных выпусков](https://github.com/unicpc/TopicSpark-Releases/releases).
-
-## English
-
-Official public TopicSpark releases for Windows x64. This repository contains the installer and update files; source code is maintained in the [developer repository](https://github.com/unicpc/TopicSpark).
-
-## A professional parser for news sources
-
-TopicSpark combines posts from RSS feeds, websites, and public Telegram channels in a topic-based feed. It extracts article text, displays available images, and keeps a direct link to the original publisher.
-
-### Features
-
-- Configure websites, RSS feeds, public Telegram channels, and monitoring topics within plan limits.
-- Collect new posts in one feed and filter them by topic or source.
-- Read extracted article text, view images, and open the original page.
-- Create a concise excerpt and set its default length in settings.
-- Sync the feed and settings between the desktop app and the web account.
-- Retain website feed materials for up to 8 days; choose desktop cleanup after 1, 2, 3, 5, or 7 days.
-
-Telegram publishing is in closed testing and is available only to administrators. Posting is disabled for regular users. Current plans and quotas are listed on the [plans page](https://topicspark.online/plans.html).
-
-### System requirements
-
-- Windows 10 or later, 64-bit.
-- AMD Ryzen 3 1200 processor or equivalent.
-- At least 8 GB of RAM.
-- NVIDIA GeForce GTX 1060 discrete graphics card or equivalent.
-- Internet connection.
-- Free disk space for the app and feed materials.
-
-Download the current version on the [downloads page](https://topicspark.online/download.html) or from the [public releases list](https://github.com/unicpc/TopicSpark-Releases/releases).
+Подробнее о программе и тарифах: [topicspark.online](https://topicspark.online/).
